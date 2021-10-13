@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Responsive E-COMMERCE Website Using HTML / CSS / JS / BOOTSTRAP</title>
+	<!-- font awesome css link--------->
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+	<!-- bootstrap css link--------->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- google font link--------->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<!-- slick css link---------->
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<!-- Owl Carousel link------>
+	<link rel="stylesheet" href="css/owl.Carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.green.min.css">
+	<!-- main css link-------->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- ressposive link==== -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+	<!-- ======header section start======== -->
+	<header id="header" class="fixed-top">
+		<div class="fas fa-bars"></div>
+		<a href="#" class="logo"><i class="fas fa-shopping-bag"></i>
+			<h1>shopping</h1>
+		</a>
+		<div class="left">
+			<div class="search-container">
+				<label for="search" class="fas fa-search"></label>
+				<input type="search" name="search" value="" id="search" placeholder="search">
+			</div>
+			<div class="fas fa-shopping-cart"></div>
+		</div>
+
+		<!-- navbar part start====== -->
+		<nav class="navbar">
+			<ul>
+				<li><a href="#banner_section">Home</a></li>
+				<li><a href="#product_section">product</a></li>
+				<li><a href="#review_section">review</a></li>
+				<li><a href="#deal_part">deal</a></li>
+				<li><a href="#summer_discount">discount</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- ======header section finish======== -->
+	<!-- banner section strat========== -->
+	<section id="banner_section" class="banner_section owl-carousel owl-theme home_slider pt-lg-5">
+
+		<div class="row slider item">
+			<div class="col-lg-6 order-2 order-lg-1">
+				<div class="content text-center text-lg-left pl-lg-5 ml-lg-5">
+					<h2>nick's shoes</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam temporibus molestias enim officiis repellat aliquam ullam!</p>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h3 class="price">1222/-</h3>
+					<a href="#"><button>add to cart<i class="fas fa-shopping-cart"></i></button></a>
+				</div>
+			</div>
+			<div class="col-lg-6 order-1 order-lg-2">
+				<div class="img_slider">
+					<img src="img/shoe3.png" alt="" style="transform:rotate(35deg)">
+				</div>
+			</div>
+
+		</div>
+		<div class="row slider item">
+			<div class="col-lg-6 order-2 order-lg-1">
+				<div class="content text-center text-lg-left pl-lg-5 ml-lg-5">
+					<h2>women's cloths</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam temporibus molestias enim officiis repellat aliquam ullam!</p>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star half"></i>
+					</div>
+					<h3 class="price">2500/-</h3>
+					<a href="#"><button>add to cart<i class="fas fa-shopping-cart"></i></button></a>
+				</div>
+			</div>
+			<div class="col-lg-6 order-1 order-lg-2">
+				<div class="img_slider">
+					<img src="img/cloth1.png" alt="">
+				</div>
+			</div>
+
+		</div>
+		<div class="row slider item">
+			<div class="col-lg-6 order-2 order-lg-1">
+				<div class="content text-center text-lg-left pl-lg-5 ml-lg-5">
+					<h2>men's watch</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam temporibus molestias enim officiis repellat aliquam ullam!</p>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h3 class="price">3200/-</h3>
+					<a href="#"><button>add to cart<i class="fas fa-shopping-cart"></i></button></a>
+				</div>
+			</div>
+			<div class="col-lg-6 order-1 order-lg-2">
+				<div class="img_slider">
+					<img src="img/watch4.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- banner section finish========= -->
+	<!-- relative company section start====== -->
+	<section id="company_link">
+		<div class="container">
+			<div class="row company_slider">
+				<div class="col-lg-2">
+					<div class="company_img">
+						<img src="img/1.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="company_img">
+						<img src="img/2.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="company_img">
+						<img src="img/3.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="company_img">
+						<img src="img/4.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="company_img">
+						<img src="img/5.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="company_img">
+						<img src="img/6.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- relative company section start====== -->
+	<!-- discount product display section strat========= -->
+	<section id="discount_section">
+		<div class="container_fluid">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 discount_col">
+					<div class="discount_product">
+						<div class="discount_img">
+							<img src="img/watch8.png" alt="">
+							<div class="discount_content">
+								<h2>spotwear up to 50% off</h2>
+								<a href="#" class="discount_btn">shop now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 discount_col">
+					<div class="discount_product">
+						<div class="discount_img">
+							<img src="img/watch5.png" alt="">
+							<div class="discount_content">
+								<h2>awesome black watch</h2>
+								<a href="#" class="discount_btn">shop now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 m-md-auto discount_col">
+					<div class="discount_product">
+						<div class="discount_img">
+							<img src="img/shoe_arival.png" alt="">
+							<div class="discount_content">
+								<h2>awesome red shoes women's</h2>
+								<a href="#" class="discount_btn">shop now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- discount product display section strat========= -->
+
+
+	<!-- ====product section start===== -->
+	<section id="product_section" class="product_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="header_title">
+						<h2>product</h2>
+					</div>
+				</div>
+			</div>
+			<div class="arival_head">
+				<h2>new shoes</h2>
+			</div>
+			<div class="row shoe_slider">
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/shoe1.png" alt="">
+						</div>
+						<h3>shoes 1</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">3200/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/shoe2.png" alt="">
+						</div>
+						<h3>shoes 2</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">1346/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/shoe3.png" alt="">
+						</div>
+						<h3>shoes 3</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">6870/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/shoe4.png" alt="">
+						</div>
+						<h3>shoes 4</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<h4 class="shoe_price">4500/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/shoe5.png" alt="">
+						</div>
+						<h3>shoes 5</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">2200/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ====product section finish===== -->
+
+	<!-- new arrivals product section start====== -->
+	<section id="arrival_product">
+		<div class="container">
+			<div class="arival_head">
+				<h2>new arrivals</h2>
+			</div>
+			<div class="row pb-lg-5">
+				<div class="col-lg-3 col-md-6 pb-md-5 pb-sm-5">
+					<div class="arrivals_box">
+						<div class="arrivals_img">
+							<img src="img/watch6.png" alt="">
+							<div class="overlay_arrivals">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>fitness watch</h3>
+						<h4 class="shoe_price">200.00/-</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 pb-md-5 pb-sm-5">
+					<div class="arrivals_box">
+						<div class="arrivals_img">
+							<img src="img/watch7.png" alt="">
+							<div class="overlay_arrivals">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>formal watch</h3>
+						<h4 class="shoe_price">400.00/-</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 pb-md-5 pb-sm-5">
+					<div class="arrivals_box">
+						<div class="arrivals_img">
+							<img src="img/watch8.png" alt="">
+							<div class="overlay_arrivals">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>stylish watch</h3>
+						<h4 class="shoe_price">900.00/-</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 pb-sm-5">
+					<div class="arrivals_box">
+						<div class="arrivals_img">
+							<img src="img/shoe4.png" alt="">
+							<div class="overlay_arrivals">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>ladies shoes</h3>
+						<h4 class="shoe_price">1000.00/-</h4>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6 pb-md-5 pb-sm-5">
+					<div class="arrivals_box">
+						<div class="arrivals_img">
+							<img src="img/shoe5.png" alt="">
+							<div class="overlay_arrivals">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>men's shoes</h3>
+						<h4 class="shoe_price">1200.00/-</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 pb-md-5 pb-sm-5">
+					<div class="arrivals_box">
+						<div class="arrivals_img">
+							<img src="img/shoe_arival.png" alt="">
+							<div class="overlay_arrivals">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>party shirts</h3>
+						<h4 class="shoe_price">2100.00/-</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 pb-md-5 pb-sm-5">
+					<div class="arrivals_box">
+						<div class="arrivals_img">
+							<img src="img/shoe_arival2.png" alt="">
+							<div class="overlay_arrivals">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>men's exclusive</h3>
+						<h4 class="shoe_price">3000.00/-</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 pb-md-5">
+					<div class="arrivals_box">
+						<div class="arrivals_img">
+							<img src="img/phone1.png" alt="">
+							<div class="overlay_arrivals">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>branded phone</h3>
+						<h4 class="shoe_price">200.00/-</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- new arrivals product section finish====== -->
+
+	<!-- ladies collection section strat======= -->
+	<section id="ladies_collection">
+		<div class="container">
+			<div class="leadies_header">
+				<h2>Leadies collection</h2>
+			</div>
+			<diiv class="row">
+				<div class="col-lg-3 col-md-6 pb-md-5">
+					<div class="leadies_product">
+						<div class="leadies_img">
+							<img src="img/product-1.jpg" alt="" class="pro-thum-img">
+							<div class="ladies_style">
+								<span class="active_style" data-image="img/product-1.jpg" style="background-color:#81483f"></span>
+								<span class="" data-image="img/cloth2.png" style="background-color:#000"></span>
+								<span class="" data-image="img/product-3.jpg" style="background-color:#fff">
+
+								</span>
+							</div>
+							<div class="overlay_ladies">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="ladies_content">
+							<h3 class="laides-name">twin solo sweater</h3>
+							<p class="laides-cart">cotas , dress</p>
+							<p class="ladies_price">$300/-</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 pb-md-5">
+					<div class="leadies_product">
+						<div class="leadies_img">
+							<img src="img/product-2.jpg" alt="" class="pro-thum-img">
+							<div class="ladies_style">
+								<span class="active_style" data-image="img/product-2.jpg" style="background-color:#577a98"></span>
+								<span class="" data-image="img/cloth2.png" style="background-color:#7a9e8d"></span>
+								<span class="" data-image="img/cloth4.png" style="background-color:red">
+
+								</span>
+							</div>
+							<div class="overlay_ladies">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="ladies_content">
+							<h3 class="laides-name">exclusive dress</h3>
+							<p class="laides-cart">cotas , dress</p>
+							<p class="ladies_price">$3300/-</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="leadies_product">
+						<div class="leadies_img">
+							<img src="img/product-3.jpg" alt="" class="pro-thum-img">
+							<div class="ladies_style">
+								<span class="active_style" data-image="img/product-3.jpg" style="background-color:#fff"></span>
+								<span class="" data-image="img/cloth3.png" style="background-color:#febb3b"></span>
+								<span class="" data-image="img/cloth4.png" style="background-color:red">
+
+								</span>
+							</div>
+							<div class="overlay_ladies">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="ladies_content">
+							<h3 class="laides-name">special product</h3>
+							<p class="laides-cart">cotas , dress</p>
+							<p class="ladies_price">$4500/-</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="leadies_product">
+						<div class="leadies_img">
+							<img src="img/cloth2.png" alt="" class="pro-thum-img">
+							<div class="ladies_style">
+								<span class="active_style" data-image="img/cloth2.png" style="background-color:#7a9e8d"></span>
+								<span class="" data-image="img/cloth3.png" style="background-color:#febb3b"></span>
+								<span class="" data-image="img/cloth4.png" style="background-color:red">
+
+								</span>
+							</div>
+							<div class="overlay_ladies">
+								<button type="button" class="btn btn-secondary" title="quick shop"><i class="fas fa-eye"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to wishlist"><i class="fas fa-heart"></i></button>
+								<button type="button" class="btn btn-secondary" title="add to cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="ladies_content">
+							<h3 class="laides-name">shorts dress</h3>
+							<p class="laides-cart">cotas , dress</p>
+							<p class="ladies_price">$1300/-</p>
+						</div>
+					</div>
+				</div>
+			</diiv>
+		</div>
+	</section>
+	<!-- ladies collection section finish======= -->
+	<!-- t-shirt product section start======== -->
+	<section id="shirt_section">
+		<div class="container">
+			<div class="shirt_header">
+				<h2>T-Shirts</h2>
+			</div>
+			<div class="row shoe_slider">
+				<div class="col-lg-4">
+					<div class="shirt_box text-center">
+						<div class="shirt_img">
+							<img src="img/shirt1.png" alt="">
+						</div>
+						<div class="shirt_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>T-shirt-1</h3>
+						<h4 class="shoe_price">1200.00/-</h4>
+						<div class="shirt_btn">
+							<a href="#"><button>buy now</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="shirt_box text-center">
+						<div class="shirt_img">
+							<img src="img/shirt2.png" alt="">
+						</div>
+						<div class="shirt_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>T-shirt-2</h3>
+						<h4 class="shoe_price">11200.00/-</h4>
+						<div class="shirt_btn">
+							<a href="#"><button>buy now</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="shirt_box text-center">
+						<div class="shirt_img">
+							<img src="img/shirt3.png" alt="">
+						</div>
+						<div class="shirt_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>T-shirt-3</h3>
+						<h4 class="shoe_price">2100.00/-</h4>
+						<div class="shirt_btn">
+							<a href="#"><button>buy now</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="shirt_box text-center">
+						<div class="shirt_img">
+							<img src="img/shirt4.png" alt="">
+						</div>
+						<div class="shirt_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>T-shirt-4</h3>
+						<h4 class="shoe_price">230.00/-</h4>
+						<div class="shirt_btn">
+							<a href="#"><button>buy now</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- t-shirt product section finish======== -->
+	<!-- watch section part strat========== -->
+	<section id="product_section" class="product_section">
+		<div class="container">
+			<div class="arival_head">
+				<h2>new watch</h2>
+			</div>
+			<div class="row shoe_slider">
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/watch1.png" alt="">
+						</div>
+						<h3>watch 1</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">3200/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/watch2.png" alt="">
+						</div>
+						<h3>watch 2</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">1346/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/watch3.png" alt="">
+						</div>
+						<h3>watch 3</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">6870/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/watch1.png" alt="">
+						</div>
+						<h3>watch 4</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<h4 class="shoe_price">4500/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/watch5.png" alt="">
+						</div>
+						<h3>watch 5</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">2200/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- watch section part finish====== -->
+
+	<!-- phone section start====== -->
+
+	<section id="product_section" class="product_section">
+		<div class="container">
+			<div class="arival_head">
+				<h2>new phones</h2>
+			</div>
+			<div class="row shoe_slider">
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/phone1.png" alt="">
+						</div>
+						<h3>phone 1</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">13200/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/download.png" alt="">
+						</div>
+						<h3>phone 2</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">22200/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/download (2).png" alt="">
+						</div>
+						<h3>phone 3</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h4 class="shoe_price">6870/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="product_box">
+						<div class="product_img">
+							<img src="img/download (1).png" alt="">
+						</div>
+						<h3>phone 4</h3>
+						<div class="shoe_star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<h4 class="shoe_price">14500/-</h4>
+						<div class="info">
+							<div class="content_2">
+								<h3>product info</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente distinctio sint autem praesentium dolorem incidunt unde quae sunt corrupti neque.</p>
+								<a href="#"><button>add to cart</button></a>
+								<div class="share">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- phone part finish===== -->
+
+	<!-- review section strat========= -->
+	<section id="review_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 pb-5">
+					<div class="review_heading text-center">
+						<h2>our customers review</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row owl-carousel owl-theme slider_review item pt-3">
+				<div class="col-lg-8 m-auto">
+					<div class="review_box">
+						<div class="review_content">
+							<p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem repellendus animi hic dolorem laborum iure eos totam sequi at sapiente.<i class="fas fa-quote-right"></i></p>
+							<h3>--TanzinaShipu</h3>
+						</div>
+						<div class="review_img">
+							<img src="img/team2.jpeg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-8 m-auto">
+					<div class="review_box">
+						<div class="review_content">
+							<p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem repellendus animi hic dolorem laborum iure eos totam sequi at sapiente.<i class="fas fa-quote-right"></i></p>
+							<h3>--TanzinaShipu three</h3>
+						</div>
+						<div class="review_img">
+							<img src="img/team4.jpeg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-8 m-auto">
+					<div class="review_box">
+						<div class="review_content">
+							<p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem repellendus animi hic dolorem laborum iure eos totam sequi at sapiente.<i class="fas fa-quote-right"></i></p>
+							<h3>--TanzinaShipu two</h3>
+						</div>
+						<div class="review_img">
+							<img src="img/user2.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- offer/review section finish========= -->
+
+	<!-- deal section part start==== -->
+	<section id="deal_part">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="deal_header tex-center">
+						<h2>deal of the day</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="deal_bottom text-center">
+						<div class="deal_icone">
+							<img src="img/icons8-truck-64.png" alt="">
+						</div>
+						<h3>free shipping</h3>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="deal_bottom text-center">
+						<div class="deal_icone">
+							<img src="img/icons8-payment-64.png" alt="">
+						</div>
+						<h3>easy payments</h3>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 m-auto pt-md-5 pt-lg-0">
+					<div class="deal_bottom text-center">
+						<div class="deal_icone">
+							<img src="img/icons8-bookmark-50.png" alt="">
+						</div>
+						<h3>10 days replacements</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="deal">
+			<div class="deal_img">
+				<img src="img/smartphone.png" alt="">
+			</div>
+			<div class="deal_content">
+				<h4>smartphone</h4>
+				<p>upto 50% off on first shipping</p>
+				<div class="star">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star half"></i>
+				</div>
+				<h3 class="price">50000/-</h3>
+				<a href="#"><button>add to cart<i class="fas fa-shopping-cart"></i></button></a>
+			</div>
+		</div>
+	</section>
+	<!--offer/ deal section part finish==== -->
+
+	<!-- =======summer discount section start==== -->
+	<section id="summer_discount">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="dicount_summer_left">
+						<img src="img/offer.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="dicount_summer_right">
+						<div class="discount_right_text">
+							<span>discount</span>
+							<h2>summer 2021</h2>
+							<h3><span>sale</span> 50% off</h3>
+						</div>
+						<div id="countdown">
+							<ul>
+								<li class="countdown_item"><span id="days"></span>days</li>
+								<li class="countdown_item"><span id="hours"></span>Hours</li>
+								<li class="countdown_item"><span id="minutes"></span>Minutes</li>
+								<li class="countdown_item"><span id="seconds"></span>Seconds</li>
+							</ul>
+							<a href="#" class="text-center">buy now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- newslatter section strat=========== -->
+	<section id="newslatter_part">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 m-auto">
+					<div class="newslatter_item text-center">
+						<h2>newslatter</h2>
+						<p>subscribe for your latest updates</p>
+						<input type="text" placeholder="subscribe">
+						<button type="submit">subscribe</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- ========footer section start======= -->
+	<footer id="footer_part">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-7 mb-md-5 mb-sm-5 col-sm-6">
+					<div class="footer_first_header">
+						<a href="#"><i class="fas fa-shopping-cart footer_i"></i><h3>shopping</h3></a>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+						<div class="footer_social">
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-5 mb-md-5 mb-sm-5 col-sm-6">
+					<div class="footer_same_header">
+						<h3>QUICK LINKS</h3>
+					</div>
+					<div class="footer_link">
+					<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">product</a></li>
+						<li><a href="#">sevice</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6">
+					<div class="footer_same_header">
+						<h3>ACCOUNTS</h3>
+					</div>
+					<div class="footer_link">
+					<ul>
+						<li><a href="#">My Account</a></li>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Order Tracking</a></li>
+						<li><a href="#">Checkout</a></li>
+						<li><a href="#">Wishlist</a></li>
+					</ul>
+				</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="footer_same_header">
+						<h3>SUPPORT</h3>
+					</div>
+				<div class="footer_link">
+					<ul>
+						<li><a href="#">Frequently Asked Questions</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Report a Payment Issue</a></li>
+						<li><a href="#">24/7 Support</a></li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-dark">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="footer_bottom">
+						<p>Copyright © 2021 shopping. All right reserved. Design by <span>Tanzinashipu.</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- <a href="https://docs.google.com/document/d/1r3QnwbVLhFR9TnCoNX0PtpSFmx6gF7-s/edit?usp=sharing&ouid=100764946450156720747&rtpof=true&sd=true" class="btn btn-success">download now</a> -->
+	<!-- jquery js link--------->
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<!-- poper js link---------->
+	<script src="js/popper.min.js"></script>
+	<!-- bootstrap js link-------->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- main js link---------->
+	<script src="js/main.js"></script>
+	<!-- owl Carousel link------->
+	<script src="js/owl.Carousel.min.js"></script>
+	<!-- countdown js link----->
+	<!-- <script src="js/jquery.countdown.min.js"></script> -->
+	<!-- slick js link------->
+	<script src="js/slick.min.js"></script>
+</body>
+
+</html>
